@@ -1,6 +1,6 @@
 base:
      project: 'wine app teju'
-     randon_state: 42
+     random_state: 42
      Target_col: TARGET
 
 data_source:
