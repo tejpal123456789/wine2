@@ -1,19 +1,15 @@
+start training the data
+start reading params file
+start reading params file
+start loading and splitting the data
+start loading and splitting the data
 start loading and splitting the data
 start reading params file
 start reading params file
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 22, in split_and_save
-    random_state=params['base']['random_state']
-KeyError: 'random_state'
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 22, in split_and_save
-    random_state=params['base']['random_state']
-KeyError: 'random_state'
-start loading and splitting the data
 start reading params file
 start reading params file
+Starting loading the data 
+Starting loading the data 
 Starting loading the data 
 Starting loading the data 
 Starting loading the data 
@@ -21,11 +17,17 @@ getting data from the data source
 getting data from the data source
 getting data from the data source
 getting data from the data source
+getting data from the data source
+getting data from the data source
 start reading params file
 start reading params file
 start reading params file
 start reading params file
 start reading params file
+start reading params file
+start reading params file
+Data has been got sucuusfully
+Data has been got sucuusfully
 Data has been got sucuusfully
 Data has been got sucuusfully
 Data has been got sucuusfully
@@ -33,54 +35,6 @@ Data has been got sucuusfully
 Data has been got sucuusfully
 ending the loading the data
 ending the loading the data
-ending the loading the data
-ending the loading the data
-ending the loading the data
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 26, in split_and_save
-    raw_dataset_path=params['load_path']['raw_dataset_csv']
-KeyError: 'load_path'
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 26, in split_and_save
-    raw_dataset_path=params['load_path']['raw_dataset_csv']
-KeyError: 'load_path'
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 26, in split_and_save
-    raw_dataset_path=params['load_path']['raw_dataset_csv']
-KeyError: 'load_path'
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 26, in split_and_save
-    raw_dataset_path=params['load_path']['raw_dataset_csv']
-KeyError: 'load_path'
-something has happen wrong while getting data from data source
-Traceback (most recent call last):
-  File "src/split.py", line 26, in split_and_save
-    raw_dataset_path=params['load_path']['raw_dataset_csv']
-KeyError: 'load_path'
-start loading and splitting the data
-start reading params file
-start reading params file
-Starting loading the data 
-Starting loading the data 
-Starting loading the data 
-getting data from the data source
-getting data from the data source
-getting data from the data source
-getting data from the data source
-start reading params file
-start reading params file
-start reading params file
-start reading params file
-start reading params file
-Data has been got sucuusfully
-Data has been got sucuusfully
-Data has been got sucuusfully
-Data has been got sucuusfully
-Data has been got sucuusfully
 ending the loading the data
 ending the loading the data
 ending the loading the data
@@ -91,3 +45,40 @@ ending splitting the data
 ending splitting the data 
 ending splitting the data 
 ending splitting the data 
+ending splitting the data 
+ending splitting the data 
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+adding parameters and logging the test resuts
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+Elasticnet model (alpha=0.900000, l1_ratio=0.890000):
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  RMSE: 0.8047749258832289
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  MAE: 0.6607334271646649
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
+  R2: 0.008941278736554703
