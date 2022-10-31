@@ -1,0 +1,70 @@
+action: GLOB, msg: packaging
+cwd: /home/teju/Workarea/winemlops
+cmd: /home/teju/anaconda3/envs/wine1/bin/python setup.py sdist --formats=zip --dist-dir /home/teju/Workarea/winemlops/.tox/dist
+running sdist
+running egg_info
+writing teju.egg-info/PKG-INFO
+writing dependency_links to teju.egg-info/dependency_links.txt
+writing top-level names to teju.egg-info/top_level.txt
+reading manifest file 'teju.egg-info/SOURCES.txt'
+writing manifest file 'teju.egg-info/SOURCES.txt'
+running check
+creating teju-0.0.1
+creating teju-0.0.1/core
+creating teju-0.0.1/prediction_service
+creating teju-0.0.1/src
+creating teju-0.0.1/teju.egg-info
+creating teju-0.0.1/tests
+copying files to teju-0.0.1...
+copying README.md -> teju-0.0.1
+copying setup.py -> teju-0.0.1
+copying core/__init__.py -> teju-0.0.1/core
+copying core/config.py -> teju-0.0.1/core
+copying core/logger.py -> teju-0.0.1/core
+copying prediction_service/__init__.py -> teju-0.0.1/prediction_service
+copying prediction_service/prediction.py -> teju-0.0.1/prediction_service
+copying src/__init__.py -> teju-0.0.1/src
+copying src/demo.py -> teju-0.0.1/src
+copying src/get_data.py -> teju-0.0.1/src
+copying src/load.py -> teju-0.0.1/src
+copying src/split.py -> teju-0.0.1/src
+copying src/train_evaluate.py -> teju-0.0.1/src
+copying teju.egg-info/PKG-INFO -> teju-0.0.1/teju.egg-info
+copying teju.egg-info/SOURCES.txt -> teju-0.0.1/teju.egg-info
+copying teju.egg-info/dependency_links.txt -> teju-0.0.1/teju.egg-info
+copying teju.egg-info/top_level.txt -> teju-0.0.1/teju.egg-info
+copying tests/__init__.py -> teju-0.0.1/tests
+copying tests/conftest.py -> teju-0.0.1/tests
+copying tests/test_config.py -> teju-0.0.1/tests
+Writing teju-0.0.1/setup.cfg
+creating /home/teju/Workarea/winemlops/.tox/dist
+creating '/home/teju/Workarea/winemlops/.tox/dist/teju-0.0.1.zip' and adding 'teju-0.0.1' to it
+adding 'teju-0.0.1'
+adding 'teju-0.0.1/teju.egg-info'
+adding 'teju-0.0.1/core'
+adding 'teju-0.0.1/prediction_service'
+adding 'teju-0.0.1/src'
+adding 'teju-0.0.1/tests'
+adding 'teju-0.0.1/README.md'
+adding 'teju-0.0.1/PKG-INFO'
+adding 'teju-0.0.1/setup.cfg'
+adding 'teju-0.0.1/setup.py'
+adding 'teju-0.0.1/teju.egg-info/SOURCES.txt'
+adding 'teju-0.0.1/teju.egg-info/PKG-INFO'
+adding 'teju-0.0.1/teju.egg-info/top_level.txt'
+adding 'teju-0.0.1/teju.egg-info/dependency_links.txt'
+adding 'teju-0.0.1/core/__init__.py'
+adding 'teju-0.0.1/core/config.py'
+adding 'teju-0.0.1/core/logger.py'
+adding 'teju-0.0.1/prediction_service/prediction.py'
+adding 'teju-0.0.1/prediction_service/__init__.py'
+adding 'teju-0.0.1/src/get_data.py'
+adding 'teju-0.0.1/src/load.py'
+adding 'teju-0.0.1/src/split.py'
+adding 'teju-0.0.1/src/__init__.py'
+adding 'teju-0.0.1/src/train_evaluate.py'
+adding 'teju-0.0.1/src/demo.py'
+adding 'teju-0.0.1/tests/__init__.py'
+adding 'teju-0.0.1/tests/test_config.py'
+adding 'teju-0.0.1/tests/conftest.py'
+removing 'teju-0.0.1' (and everything under it)
