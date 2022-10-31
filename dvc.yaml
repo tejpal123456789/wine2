@@ -1,0 +1,21 @@
+stages:
+      training_stage:
+       cmd: python src/train_evaluate.py 
+       deps:
+          - src/get_data.py
+          - src/load.py
+          - data_given/winequality.csv
+          - src/train_evaluate.py
+          - data/processed/train_winequality.csv
+          - data/processed/test_winequlaity.csv
+       params:
+           - estimators.ElasticNet.params.alpha
+           - estimators.ElasticNet.params.l1_ratio
+       metrics:
+          - report/scores.json:
+                cache: false
+          - report/params.json:
+              cache: false  
+
+       outs:
+          - saved_models/model.joblib

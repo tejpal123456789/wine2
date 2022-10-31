@@ -38,3 +38,4 @@ class split_data:
             self.logger.exception('something has happen wrong while getting data from data source')
             raise Exception
  
+print('I love you my musku')
