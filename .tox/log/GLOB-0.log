@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: /home/teju/Workarea/winemlops
-cmd: /home/teju/anaconda3/envs/wine1/bin/python setup.py sdist --formats=zip --dist-dir /home/teju/Workarea/winemlops/.tox/dist
+cmd: /home/teju/anaconda3/envs/wine1/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
 writing teju.egg-info/PKG-INFO
@@ -37,8 +37,7 @@ copying tests/__init__.py -> teju-0.0.1/tests
 copying tests/conftest.py -> teju-0.0.1/tests
 copying tests/test_config.py -> teju-0.0.1/tests
 Writing teju-0.0.1/setup.cfg
-creating /home/teju/Workarea/winemlops/.tox/dist
-creating '/home/teju/Workarea/winemlops/.tox/dist/teju-0.0.1.zip' and adding 'teju-0.0.1' to it
+creating '.tox/dist/teju-0.0.1.zip' and adding 'teju-0.0.1' to it
 adding 'teju-0.0.1'
 adding 'teju-0.0.1/teju.egg-info'
 adding 'teju-0.0.1/core'

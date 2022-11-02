@@ -94,3 +94,6 @@ def api_response(dict_request):
         response = {"response": str(e) }
         return response
 
+
+
+

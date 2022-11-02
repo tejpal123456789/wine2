@@ -1,6 +1,11 @@
+# local package install 
+
+-e .
+
 dvc
 dvc[gdrive]
 sklearn
 flask
 pytest
 tox
+flake8

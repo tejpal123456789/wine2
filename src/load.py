@@ -21,6 +21,7 @@ class load_data:
             df.to_csv(raw_data_path,sep=',',index=False,header=new_columns)
 
             self.logger.info('ending the loading the data')
+            
         except Exception:
             self.logger.exception('something has happen wrong while getting data from data source')
             raise Exception 

@@ -8,9 +8,7 @@ class Logger:
         
         file_handler = logging.FileHandler('logs/train_x' + '.log')
         self.logger.addHandler(file_handler)
-
-    
-
+        
     def info(self,message):
         self.logger.info(message)
 
